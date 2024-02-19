@@ -27,8 +27,8 @@ const ProductDetails = ({ product }) => {
             {product?.currencyCode}
           </p>
           <div className="flex flex-col">
-            <Button onCli variant="secondary">ADD TO CART</Button>
-            <Button>BUY NOW</Button>
+            <Button variant="secondary" label="ADD TO CART" />
+            <Button label="BUY NOW" />
           </div>
           <div></div>
         </div>

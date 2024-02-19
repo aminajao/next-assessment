@@ -111,7 +111,7 @@ const CreateProduct = () => {
                 name="url"
                 value={data.url}
               />
-              <Button type="submit">{loading ? 'Loading...' : 'SUBMIT'}</Button>
+              <Button type="submit" label={loading ? 'Loading...' : 'SUBMIT'} />
             </div>
           </div>
         </div>
